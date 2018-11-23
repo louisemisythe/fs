@@ -1,0 +1,10 @@
+
+<section id="contact">
+  <div class="row section-head">
+      {{ content }}
+  </div>
+  <div class="row contact">
+        {% include "forms/form.html.twig" with {'form': forms('contact')} %}
+  </div>
+
+</section>

@@ -1,0 +1,13 @@
+name: Aiming Site
+version: 1.0.1
+description:
+icon: group
+author:
+  name: Team Grav
+  email: devs@getgrav.org
+  url: http://getgrav.org
+homepage: https://github.com/getgrav/grav-skeleton-woo-site
+demo: http://demo.getgrav.org/woo-skeleton
+keywords: woo, skeleton, scroll, page, modular
+bugs: https://github.com/getgrav/grav-skeleton-woo-site/issues
+license: MIT

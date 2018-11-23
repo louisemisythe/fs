@@ -1,0 +1,58 @@
+title: aiming
+default_lang: en
+author:
+  name: 'Mike Militante'
+  email: michaelmilitante@yahoo.com
+taxonomies:
+  - category
+  - tag
+metadata:
+  description: 'Aiming Site'
+summary:
+  enabled: true
+  format: short
+  size: 300
+  delimiter: '==='
+blog:
+  route: /blog
+Product:
+  route: /blog
+email: your-email@domain.com
+description: 'Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.'
+social:
+  -
+    url: '#'
+    icon: facebook
+
+menu:
+  -
+    text: 'Pricing'
+    link: '#pricing'
+  -
+    text: 'Contact Us'
+    link: '#contact'
+  -
+    text: '<i class="fa fa-phone-square"></i> 09989605873'
+
+footer:
+  text: 'We are a group of engineers passionate about network technology. We want to make network and systems management affordable for SMBs and easy for larger organizations. We are delivering consolidated, intelligent solutions - built for low overhead, automatic insights, and simple, streamlined configuration.'
+  address:
+    title: 'COME VISIT'
+    lines:
+      -
+        line: '6th Flr. Kings Court Building,'
+      -
+        line: 'Makati City, Metro Manila'
+      -
+        line: 'Philippines'
+
+  social_title: Socialize
+  contact:
+    title: 'CONTACT US'
+    lines:
+      -
+        text: (02) 810-0239
+        url: '#'
+      -
+        text: admin@aiming-inc.com.ph
+        url: 'mailto:admin@aiming-inc.com.ph'

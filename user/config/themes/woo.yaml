@@ -1,0 +1,4 @@
+enabled: true
+color: green
+dropdown:
+  enabled: true

@@ -1,0 +1,68 @@
+<footer>
+    <div class="row">
+        <div class="six columns info">
+            <div class="footer-logo">
+                <a href="{{ base_url_absolute }}">
+                    <img src="{{ theme_url }}/images/footer-logo.png" alt="" />
+                </a>
+            </div>
+            <p>
+                {{ site.footer.text }}
+            </p>
+        </div>
+        <div class="six columns right-cols">
+            <div class="row">
+                <div class="columns">
+                    <h3 class="address">{{ site.footer.address.title }}</h3>
+                    <p>
+                        {% for item in site.footer.address.lines %}
+                           {{ item.line }} <br>
+                        {% endfor %}
+                    </p>
+                </div>
+                <div class="columns">
+                    <h3 class="social">{{ site.footer.social_title }}</h3>
+                    <ul>
+                        {% for item in site.social %}
+                            <li><a href="{{ item.url }}">{{ item.icon|capitalize }}</a></li>
+                        {% endfor %}
+                    </ul>
+                </div>
+                <div class="columns last">
+                    <h3 class="contact">{{ site.footer.contact.title }}</h3>
+                    <ul>
+                        {% for item in site.footer.contact.lines %}
+                            <li><a href="{{ item.url }}">{{ item.text }}</a></li>
+                        {% endfor %}
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <p class="copyright">&copy; 2018 aiming-inc.com.ph</p>
+        <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.css" />
+        <script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.js"></script>
+        <script>
+        window.addEventListener("load", function(){
+        window.cookieconsent.initialise({
+          "palette": {
+            "popup": {
+              "background": "#000"
+            },
+            "button": {
+              "background": "#f1d600"
+            }
+          },
+          "showLink": false,
+          "theme": "edgeless",
+          "content": {
+            "message": "We use cookies to ensure that we give you the best experience on our website. We will assume that you agree for us to do this. However, you can change your settings at any time according with your browser."
+          }
+        })});
+        </script>
+
+        <div id="go-top">
+              <a class="go-top" title="Back to Top" href="#"><i class="icon-up-open"></i></a>
+  	    </div>
+    </div>
+
+</footer>

@@ -1,0 +1,6 @@
+enabled: true
+jqcookie: true
+possition: top
+url: 'http://localhost:8888/woo/cookies'
+customcss: false
+urlcss: 'http://example.com/assets/css/style.css'
